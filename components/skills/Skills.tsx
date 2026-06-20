@@ -22,7 +22,7 @@ const skills = [
   { name: "Tailwind CSS", icon: <SiTailwindcss /> },
   { name: "JavaScript", icon: <SiJavascript /> },
   { name: "TypeScript", icon: <SiTypescript /> },
-  { name: "React", icon: <SiReact /> },
+  { name: "React.js", icon: <SiReact /> },
   { name: "Next.js", icon: <SiNextdotjs /> },
   { name: "Redux Toolkit", icon: <SiRedux /> },
   { name: "React Query", icon: <SiReactquery /> },
@@ -31,7 +31,7 @@ const skills = [
   { name: "React Testing Library", icon: <SiTestinglibrary /> },
   { name: "Storybook", icon: <SiStorybook /> },
   { name: "Git & GitHub", icon: <FaGithub /> },
-  { name: "AI Assistant", icon: <FaRobot /> },
+  { name: "AI Tools", icon: <FaRobot /> },
 ];
 
 const Skills = () => {

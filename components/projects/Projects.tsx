@@ -1,16 +1,15 @@
 "use client";
 
-import Image from "next/image";
-import { BsArrowUpRight } from "react-icons/bs";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick-theme.css";
-import "slick-carousel/slick/slick.css";
 import bt from "@/public/assets/betatenant.jpeg";
 import abs from "@/public/assets/edu.png";
 import hage from "@/public/assets/hage.png";
-import sch from "@/public/assets/sch.png";
 import shulioo from "@/public/assets/shulioo.png";
-import stasionpoint from "@/public/assets/stasionpoint.jpeg";
+import ant from "@/public/assets/ant.png";
+import fr from "@/public/assets/fr.png";
+import ca from "@/public/assets/ca.png";
+import Image from "next/image";
+import { BsArrowUpRight } from "react-icons/bs";
+import Slider from "react-slick";;
 
 const Projects = () => {
   const settings = {
@@ -39,51 +38,57 @@ const Projects = () => {
     ],
   };
 
-  const projectData = [
-    {
-      image: sch,
-      title: "Schollarr",
-      description:
-        "Schollarr is a platform designed to connect students with experienced mentors and alumni from universities worldwide. It makes it easier for learners to access guidance, grow with confidence, and gain clarity on their academic and career paths.",
-      link: "https://www.schollarr.com/",
-    },
-    {
-      image: abs,
-      title: "Edustipend",
-      description:
-        "Edustipend is a platform designed to support learners through educational stipends, laptop assistance, and a structured donations flow. With an ambassadors program and a growing community of supporters, the platform helps students achieve their learning goals with confidence.",
-      link: "https://edustipend.org",
-    },
-    {
-      image: bt,
-      title: "Beta Tenant",
-      description:
-        "Beta Tenant is a platform designed to help users discover the perfect home with ease. It offers a curated selection of rental properties, allowing people to explore options and find the one that best fits their needs.",
-      link: "https://betatenant.com/",
-    },
-    {
-      image: shulioo,
-      title: "Shulioo",
-      description:
-        "Shulioo is a no-code portfolio builder for tech professionals. Users can showcase their projects, skills, certifications, GitHub activity, awards, press kits, speaking history, and résumé in one place.",
-      link: "https://shulioo.com/",
-    },
-    {
-      image: stasionpoint,
-      title: "Stasion Point",
-      description:
-        "Station Point is a platform designed to put professional security at your fingertips. It allows users to instantly search for and book verified bodyguards and bouncers nearby, making safety fast, simple, and dependable.",
-      link: "https://www.stasionpoint.com/",
-    },
-
-    {
-      image: hage,
-      title: "Hage",
-      description:
-        "Hage is a platform designed to simplify cross-border shipping across Africa and beyond. It helps overcome broken infrastructure, delays, and logistical guesswork by connecting them with reliable logistics providers, making trade faster, transparent, and more efficient.",
-      link: "https://tryhage.vercel.app/",
-    },
-  ];
+ const projectData = [
+  {
+    image: ca,
+    title: "ColloAfrica",
+    description:
+      "ColloAfrica is a financial services platform building wealth and prosperity for African communities. I am engineering the client and admin applications, implementing the MGR investment tool to simplify wealth management.",
+    link: "https://colloafrica.com",
+  },
+  {
+    image: abs,
+    title: "Edustipend",
+    description:
+      "Edustipend supports 600+ learners through educational stipends, laptop assistance, and structured donations. I built accessible interfaces, implemented reusable components in Storybook, and created donation flows connecting supporters with students across Nigeria.",
+    link: "https://edustipend.org",
+  },
+  {
+    image: shulioo,
+    title: "Shulioo",
+    description:
+      "Shulioo is a no-code portfolio builder for tech professionals. I redesigned the landing page for better conversions, built customizable portfolio templates, integrated payment processing for premium features, and refactored the codebase for performance and stability.",
+    link: "https://shulioo.com/",
+  },
+  {
+    image: hage,
+    title: "Hage",
+    description:
+      "Hage simplifies cross-border shipping across Africa by connecting traders with reliable logistics providers. I am implementing intuitive shipping workflows and real-time tracking interfaces to make trade faster, more transparent, and more efficient.",
+    link: "https://www.tryhage.com/",
+  },
+  {
+    image: bt,
+    title: "Beta Tenant",
+    description:
+      "Beta Tenant helps users discover the perfect rental home with ease. I translated Figma designs into responsive components, implemented real-time chat for tenant-landlord communication, built core property workflows, and integrated secure payment processing.",
+    link: "https://betatenant.com/",
+  },
+  {
+    image: ant,
+    title: "Anthyx",
+    description:
+      "Anthyx is the branding and marketing workspace for teams who run brands seriously. I am implementing responsive dashboards that surface strategy, content, campaigns, competitive intelligence, and analytics in one place.",
+    link: "https://app.useanthyx.com/",
+  },
+  {
+    image: fr,
+    title: "Frankly",
+    description:
+      "Frankly gives teams a safe, anonymous space to speak honestly. I built fast, intuitive feedback interfaces that help teams hear the real problems before they become expensive ones.",
+    link: "https://frankly-lime.vercel.app/",
+  },
+];
 
   return (
     <div className="w-10/12 mx-auto lg:flex lg:flex-col lg:items-center ">

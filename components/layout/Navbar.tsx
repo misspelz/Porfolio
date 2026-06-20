@@ -27,11 +27,10 @@ const Navbar = (props: Props) => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled
           ? "backdrop-blur-md bg-neutral-900/70 border-b border-neutral-500"
           : ""
-      }`}
+        }`}
     >
       {/* Overlay when nav is open */}
       {showNav && (
@@ -59,7 +58,7 @@ const Navbar = (props: Props) => {
         <ul className="hidden sm:flex space-x-10 items-center">
           <li>
             <Link
-              href="https://docs.google.com/document/d/1jA2l3StIbzDNkNtgKBWB3VkozDbN-rHHaqb_xQyYzts/edit?tab=t.0"
+              href="https://docs.google.com/document/d/1TVnneJ644nh1vFj8ur7iVpl3BWBXEcnvbw3yTUjihfk/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#f7a025] transition-colors text-lg"
@@ -97,17 +96,15 @@ const Navbar = (props: Props) => {
 
         {/* Mobile navigation */}
         <nav
-          className={`sm:hidden absolute left-0 w-full bg-neutral-900 transition-all duration-300 ease-in-out z-40 ${
-            showNav
+          className={`sm:hidden absolute left-0 w-full bg-neutral-900 transition-all duration-300 ease-in-out z-40 ${showNav
               ? "top-16 opacity-100"
               : "top-0 opacity-0 pointer-events-none"
-          }`}
+            }`}
         >
           <ul className="flex flex-col items-center space-y-4 py-6">
             <li
-              className={`transition-transform duration-300 ${
-                showNav ? "translate-x-0" : "-translate-x-32"
-              }`}
+              className={`transition-transform duration-300 ${showNav ? "translate-x-0" : "-translate-x-32"
+                }`}
             >
               <Link
                 href="https://docs.google.com/document/d/1jA2l3StIbzDNkNtgKBWB3VkozDbN-rHHaqb_xQyYzts/edit?tab=t.0"
@@ -120,9 +117,8 @@ const Navbar = (props: Props) => {
               </Link>
             </li>
             <li
-              className={`transition-transform duration-300 delay-100 ${
-                showNav ? "translate-x-0" : "-translate-x-40"
-              }`}
+              className={`transition-transform duration-300 delay-100 ${showNav ? "translate-x-0" : "-translate-x-40"
+                }`}
             >
               <Link
                 href="#skills"
@@ -133,9 +129,8 @@ const Navbar = (props: Props) => {
               </Link>
             </li>
             <li
-              className={`transition-transform duration-300 delay-100 ${
-                showNav ? "translate-x-0" : "-translate-x-40"
-              }`}
+              className={`transition-transform duration-300 delay-100 ${showNav ? "translate-x-0" : "-translate-x-40"
+                }`}
             >
               <Link
                 href="#projects"
@@ -146,9 +141,8 @@ const Navbar = (props: Props) => {
               </Link>
             </li>
             <li
-              className={`transition-transform duration-300 delay-200 ${
-                showNav ? "translate-x-0" : "-translate-x-48"
-              }`}
+              className={`transition-transform duration-300 delay-200 ${showNav ? "translate-x-0" : "-translate-x-48"
+                }`}
             >
               <Link
                 href="https://wa.link/0wqvvf"
